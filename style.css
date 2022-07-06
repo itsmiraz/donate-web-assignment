@@ -60,7 +60,7 @@
 
 .taka {
     padding: 30px 30px 0px 30px;
-    color: gray;
+    color: rgb(37, 37, 37);
 }
 
 #select {
@@ -75,9 +75,15 @@
     display: inline;
 }
 
-.line {
-    height: 1px;
-    background-color: gray;
+#input-amount {
+    width: 420px;
+    height: 40px;
+    border-top: none;
+    border-right: none;
+    border-bottom: 1px solid gray;
+    border-left: none;
+    text-align: center;
+
 }
 
 .our-donate-plan {
@@ -89,6 +95,10 @@
 .our-donate-plan h1 {
     font-size: 3em;
     color: rgb(44, 42, 42);
+}
+
+.our-donate-plan {
+    color: rgb(48, 47, 47);
 }
 
 .donate-plan-des {
