@@ -1,0 +1,162 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto', sans-serif;
+}
+
+.header-section {
+    background-image: url(image/donation13.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+
+
+}
+
+.header-text {
+    text-align: center;
+    padding: 15% 20% 10% 20%;
+    color: white;
+}
+
+
+.header-text h1 {
+    font-size: 4em;
+}
+
+.header-text p {
+    font-size: large;
+
+}
+
+.donate-button {
+    text-decoration: none;
+    background-color: tomato;
+    color: white;
+    padding: 10px 40px;
+    border-radius: 5px;
+    font-size: larger;
+}
+
+.donate-today {
+    text-align: center;
+    margin: 10% 15% 5% 15%;
+}
+
+.donate-today h1 {
+    font-size: 3em;
+}
+
+.donate-today p {
+    color: gray;
+}
+
+#tk-box {
+    display: inline-flex;
+    padding: 20px;
+    color: rgb(44, 43, 43);
+
+}
+
+.taka {
+    padding: 30px 30px 0px 30px;
+    color: gray;
+}
+
+#select {
+    border: 2px solid tomato;
+    padding: 30px 30px;
+    color: tomato;
+    border-radius: 5px;
+
+}
+
+.other-amount {
+    display: inline;
+}
+
+.line {
+    height: 1px;
+    background-color: gray;
+}
+
+.our-donate-plan {
+    text-align: center;
+    color: rgb(43, 39, 39);
+
+}
+
+.our-donate-plan h1 {
+    font-size: 3em;
+    color: rgb(44, 42, 42);
+}
+
+.donate-plan-des {
+    display: flex;
+    margin: 20px 30px 20px 30px;
+
+}
+
+.part {
+    margin: 10px 40px 10px 40px;
+    padding: 20px 30px 20px 30px;
+    text-align: left;
+
+}
+
+.food {
+    background-color: #edf5f7;
+}
+
+.shelter {
+    background-color: #ffeeee;
+}
+
+.education {
+    background-color: #fff4d6;
+}
+
+.total-donate-head {
+    text-align: center;
+    margin-top: 5%;
+}
+
+.total-donate-head h1 {
+    font-size: 3em;
+    color: tomato;
+}
+
+.total-donate-head h4 {
+
+    color: darkgray;
+}
+
+.prgress-bar {
+    position: relative;
+    margin: 5% 10% 10% 15%;
+    width: 1000px;
+    height: 100px;
+    border-radius: 20px;
+    background-color: rgb(160, 146, 143);
+}
+
+.prgress-fil {
+    width: 60%;
+    height: 100%;
+    border-radius: 20px;
+    background-color: tomato;
+}
+
+.Total-donation-txt {
+    color: white;
+    position: absolute;
+    top: 30%;
+    right: 80%;
+    font-size: larger;
+    transform: rotateX(-50);
+
+}
+
+.goal {
+    right: 5%;
+}
